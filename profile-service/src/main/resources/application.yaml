@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /profile
+spring:
+  application:
+    name: profile-service
+  data:
+    mongodb:
+      uri: mongodb://root:root@localhost:27017/profile-service?authSource=admin
+app:
+  url: http://localhost:8180
+  grant_type: client_credentials
+  client_id: devteria_app
+  client_secret: X4lJUMicdax5K7hgDtJov7s8YtJCyH4o
+  scope: openid
