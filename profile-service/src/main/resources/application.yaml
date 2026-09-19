@@ -12,4 +12,4 @@ spring:
 idp:
   url: http://localhost:8180
   client-id: devteria_app
-  client-secret: jJ1gdXhJbeOXMnqe1A1jnZVmc3WKCTx3
+  client-secret: X4lJUMicdax5K7hgDtJov7s8YtJCyH4o
